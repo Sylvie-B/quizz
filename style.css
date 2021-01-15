@@ -6,8 +6,42 @@
 
 html {
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 body {
     width: 100%;
 }
+
+section {
+    background-color: #ffd8ca;
+    padding: 5vh;
+}
+
+#game, #title, #questNbr, #intro, #quest, #answer, #start {
+    width: 80%;
+    margin: 1vh auto;
+}
+
+#title, #quizz {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#title {
+    font-size: 2vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quizz {
+    padding: 5vh;
+}
+
+#questNbr, #intro, #quest, #answer, #start {
+    height: 4vh;
+    background: white;
+}
+
